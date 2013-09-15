@@ -1,0 +1,12 @@
+set background=dark
+syntax on
+
+let g:rainbow_active=1
+let g:rainbow_load_separately = [
+  \ ['*', [['(',')'], ['\[','\]'], ['{','}']], '"[;:]"'],
+  \ ['*.{c,cpp,h,hpp}' , [['(',')'], ['\[','\]'], ['{','}']], '"\(;\|,\)"']
+  \ ]
+let g:rainbow_ctermfgs=['LightBlue','LightCyan','LightGreen','LightYellow','White','DarkCyan','DarkGreen','DarkYellow','DarkRed']
+let g:rainbow_guifgs=g:rainbow_ctermfgs
+ 
+let g:ConqueTerm_Syntax='q'
